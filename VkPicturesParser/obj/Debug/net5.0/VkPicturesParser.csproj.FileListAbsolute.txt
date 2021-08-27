@@ -1,0 +1,12 @@
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\bin\Debug\net5.0\VkPicturesParser.deps.json
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\bin\Debug\net5.0\VkPicturesParser.dll
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\bin\Debug\net5.0\ref\VkPicturesParser.dll
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\bin\Debug\net5.0\VkPicturesParser.pdb
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\obj\Debug\net5.0\VkPicturesParser.csproj.AssemblyReference.cache
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\obj\Debug\net5.0\VkPicturesParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\obj\Debug\net5.0\VkPicturesParser.AssemblyInfoInputs.cache
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\obj\Debug\net5.0\VkPicturesParser.AssemblyInfo.cs
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\obj\Debug\net5.0\VkPicturesParser.csproj.CoreCompileInputs.cache
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\obj\Debug\net5.0\VkPicturesParser.dll
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\obj\Debug\net5.0\ref\VkPicturesParser.dll
+C:\Users\Alexandr\Desktop\VsePikchi\VkPicturesParser\obj\Debug\net5.0\VkPicturesParser.pdb

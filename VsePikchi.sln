@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VsePikchi", "VsePikchi\VsePikchi.csproj", "{DE11D788-C4E2-4ED0-ACBB-C5E4645B9A95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VkPicturesParser", "VkPicturesParser\VkPicturesParser.csproj", "{BF195EAC-BB85-4637-A5EA-C50DEA6D6658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE11D788-C4E2-4ED0-ACBB-C5E4645B9A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE11D788-C4E2-4ED0-ACBB-C5E4645B9A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE11D788-C4E2-4ED0-ACBB-C5E4645B9A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE11D788-C4E2-4ED0-ACBB-C5E4645B9A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF195EAC-BB85-4637-A5EA-C50DEA6D6658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF195EAC-BB85-4637-A5EA-C50DEA6D6658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF195EAC-BB85-4637-A5EA-C50DEA6D6658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF195EAC-BB85-4637-A5EA-C50DEA6D6658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2BE2539-C68B-4B7D-90A9-0EE65E6C4324}
+	EndGlobalSection
+EndGlobal

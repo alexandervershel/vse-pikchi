@@ -1,0 +1,23 @@
+﻿@model VsePikchi.Models.Picture
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="img-block">
+    <div class="actions-bar">
+        <div class="actions-bar__item">
+            <div class="url-block">
+                <button class="copy-button" onclick="copyUrlToClipboard()">
+                    <img src="~/img/copy-icon.png" alt="">
+                </button>
+                <span class="url-span"
+                      style="width: 200px; color: #000000; text-align: center; font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif" >@Model.Url</span>
+            </div>
+        </div>
+    </div>
+    <div class="large-img">
+        <img src="@Model.Url"
+             alt="">
+    </div>
+</div>

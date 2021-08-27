@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VsePikchi</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <label class="hamburger-menu-label">
+                <img src="~/img/hamburger-icon.png" alt="" class="hamburger-menu-icon" style="height: 24px;">
+            </label>
+            <div class="logo-bar">
+                <a id="logo" asp-area="" asp-controller="Home" asp-action="Index">
+                    <span>ВсеПикчи</span>
+                </a>
+            </div>
+            <!-- сделать элементы в хедере частью списка ul -->
+            <!-- сделать навигацию скрытой на телефоне -->
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li>
+                        <label class="hamburger-close-menu-label">
+                            <img src="~/img/close-icon.png" alt="" class="hamburger-menu-icon" style="height: 24px;">
+                        </label>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="Index">Галерея</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="RandomGenerator">Случайный генератор</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="About">О сайте</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

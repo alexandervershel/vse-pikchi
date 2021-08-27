@@ -1,0 +1,25 @@
+﻿@model IEnumerable<VsePikchi.Models.Picture>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="content">   
+    <div class="gallery">
+        @if (Model != null && Model.Count() > 0)
+        {
+            @foreach (var item in Model.Reverse())
+            {
+                <div class="gallery-item">
+                    <a asp-area="" asp-controller="Picture" asp-action="Index" asp-route-id="@item.Id">
+                        <img src="@item.Url"
+                             alt="Изображение не найдено">
+                    </a>
+                </div>
+            }
+        }
+        else
+        {
+            <span>Изображений нет</span>
+        }
+    </div>
+</div>

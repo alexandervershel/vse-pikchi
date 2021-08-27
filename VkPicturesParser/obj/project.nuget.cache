@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VLm2Ws3A1stSawtYQe7OgIseg58HUpNH62pDvB3j690eXaEo66vyNfYts2uSOd6C+MOzlAa8om31U7lKgZqm0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexandr\\Desktop\\VsePikchi\\VkPicturesParser\\VkPicturesParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexandr\\.nuget\\packages\\htmlagilitypack\\1.11.36\\htmlagilitypack.1.11.36.nupkg.sha512"
+  ],
+  "logs": []
+}
